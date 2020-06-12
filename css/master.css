@@ -3,3 +3,25 @@
   margin:0;
   box-sizing: border-box;
 }
+
+.body{
+  position: relative;
+  height: auto;
+  background-image: url( https://codice-rosso.net/wp-content/uploads/2019/11/01terminator2.jpg );
+}
+
+.container {
+  width: 150px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: lightgrey;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, 50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
