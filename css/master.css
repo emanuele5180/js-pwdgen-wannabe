@@ -4,18 +4,24 @@
   box-sizing: border-box;
 }
 
-.body{
+section{
   position: relative;
-  height: auto;
-  background-image: url( https://codice-rosso.net/wp-content/uploads/2019/11/01terminator2.jpg );
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/01terminator2.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+
 }
 
 .container {
-  width: 150px;
+  min-width: 200px;
   height: 50px;
-  border: 1px solid black;
+  padding: 10px;
+  border: 3px solid #ff0000;
   border-radius: 10px;
-  background-color: lightgrey;
+  bor
+  background-color: #e61919;
   position: absolute;
   left: 50%;
   top:50%;
@@ -24,4 +30,5 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-family: 'Orbitron',sans-serif;
 }
