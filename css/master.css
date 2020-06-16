@@ -3,7 +3,7 @@
   margin:0;
   box-sizing: border-box;
 }
-
+ /* password generator */
 section{
   position: relative;
   width: 100vw;
@@ -11,6 +11,11 @@ section{
   background-image: url(../img/01terminator2.jpg);
   background-size: contain;
   background-repeat: repeat;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* da verificare il flex */
+
 
 }
 
@@ -20,8 +25,7 @@ section{
   padding: 10px;
   border: 3px solid #ff0000;
   border-radius: 10px;
-  bor
-  background-color: #e61919;
+  background-color: #e95c5c;
   position: absolute;
   left: 50%;
   top:50%;
@@ -32,3 +36,141 @@ section{
   align-items: center;
   font-family: 'Orbitron',sans-serif;
 }
+
+
+
+/* settaggi blocchi */
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50vh;
+}
+
+.primo-blocco, .secondo-blocco, .terzo-blocco {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.time {
+  height: 50px;
+  width: 2px;
+  margin: 0 5px 0 10px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap-reverse;
+}
+
+.time1 {
+  height: 150px;
+  width: 2px;
+  margin: 0 7px 0 10px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.time2 {
+  height: 100px;
+  width: 2px;
+  margin: 0 5px 0 15px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.line_time {
+  height: 2px;
+  width: 170px;
+  background-color: red;
+}
+
+.line_time1 {
+  height: 2px;
+  width: 70px;
+  background-color: red;
+
+}
+
+.line_time2 {
+  height: 2px;
+  width: 30px;
+  background-color: red;
+
+}
+
+.bot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* justify-content: flex-end; */
+  height: 50vh;
+  align-items: flex-end;
+}
+
+.primo-bloccobot, .secondo-bloccobot {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap-reverse;
+
+
+}
+
+.time3 {
+  height: 150px;
+  width: 2px;
+  margin: 0 4px 0 15px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap-reverse;
+}
+
+.time4 {
+  height: 250px;
+  width: 2px;
+  margin: 0 10px 0 20px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.time5 {
+  height: 90px;
+  width: 2px;
+  margin: 0 5px 0 5px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.line_time3 {
+  height: 2px;
+  width: 170px;
+  background-color: red;
+}
+
+.line_time4 {
+  height: 2px;
+  width: 70px;
+  background-color: red;
+
+}
+
+.line_time5 {
+  height: 2px;
+  width: 30px;
+  background-color: red;
+
+}
+/* .bot .time, .bot .time1, .bot .time2 {
+  align-self: flex-end;
+} */
